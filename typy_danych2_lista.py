@@ -110,7 +110,7 @@ lista2 = [tekst]
 print(lista2) # ['Python']
 print(lista_1 + lista2) # ['P', 'y', 't', 'h', 'o', 'n', 'Python']
 
-krotka = tuple(liczy)
+krotka = tuple(liczby)
 print(krotka)
 
 
