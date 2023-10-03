@@ -36,7 +36,7 @@ print(imie3)
 
 lista = list(tupla3) #zamiana (rzutowanie) tupli na listę
 print(lista) #[43, 55, 22.24, 11, 200]
-print(type(lista)) <class 'list'>
+print(type(lista)) #<class 'list'>
 
 
 
