@@ -114,3 +114,5 @@ krotka = tuple(liczby)
 print(krotka)
 
 
+
+
