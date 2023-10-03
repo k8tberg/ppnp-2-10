@@ -84,11 +84,11 @@ print(f"Wynik porownania{a}!={b},{a != b}")
 # odp1 = "1410"
 #
 # print(f"{pyt1}")
-# odpu = (input())
+# odpu = (input(print(f"{pyt1}"))) ???
 #
 # if odp1 == odpu
 #
-odp = inpit ("Podaj cos")
+odp = input ("Podaj cos")
 if odp == '966':
     printf("Prawidlowo")
 else:
