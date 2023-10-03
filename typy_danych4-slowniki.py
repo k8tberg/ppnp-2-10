@@ -56,3 +56,4 @@ print(m + int(n)) # alternatywna zamaiana typu danych
 
 
 
+
