@@ -21,4 +21,3 @@ zm = oblicz_vat(1000)  # 1230.0
 if zm == 1230:
     print("Działa")  # działa
 
-list.
