@@ -75,7 +75,7 @@ for p in enumerate(imiona):
 # (2, 'Zbyszek')
 # (3, 'Karolina')
 
-a, b = (0, "Radek")
+a, b = (0, "Radek") #rozpakowanie krotki
 print(a)
 print(b)
 
@@ -203,13 +203,12 @@ for p in enumerate(imiona):
 # (2, 'Zbyszek')
 # (3, 'Karolina')
 
-a, b = (0, "Radek")
+a, b = (0, "Radek") # rozpakowanie krotki ?
 print(a)
 print(b)
 
-for p, w in enumerate(imiona):  # rozpakowanie krotki
-    print(p, w, sep=";", end='')
-
+for p, w in enumerate(imiona):
+print(p, w, sep=";", end='')
 print()
 
 # 0 Radek
