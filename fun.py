@@ -13,8 +13,7 @@ def dodaj2(a, b):  # funkcja z dwoma argumentami, obowiązkowe a i b przy wywoł
     print(a + b)
 
 
-def odejmij(a, b,
-            c=0):  # arg c ma wartość domyślną; w celu uzyskania efektu przeciążania argumentów funckji (symulowanie przeciazania arg funk)
+def odejmij(a, b, c=0):  # arg c ma wartość domyślną; w celu uzyskania efektu przeciążania argumentów funckji (symulowanie przeciazania arg funk)
     print(a - b - c)
 
 
