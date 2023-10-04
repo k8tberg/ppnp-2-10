@@ -32,7 +32,6 @@ odejmij(b=6, a=8, c=1)  # argumenty nazwane
 odejmij2(4, 5)
 odejmij2(liczba2=10, liczba1=25)
 #odejmij(c=11, 2, 8) #SyntaxError: positional argument follows keyword argument
-
 #print(dodaj() + dodaj2(5,7)) #TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
 
-print(dodaj()) # funkcja nic nie zwraca
+print(dodaj()) # funkcja nic nie zwraca wyniku, tylko wypisuje
