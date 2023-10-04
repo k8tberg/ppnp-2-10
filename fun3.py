@@ -19,7 +19,7 @@ def dodaj3():
     print(a + b)
 
 
-print("Zmienna a z góry", a)
+print("Zmienna a z góry", a) #Zmienna a z góry 10
 dodaj() #13
 print("Zmienna a z góry", a)
 dodaj2() # 20
