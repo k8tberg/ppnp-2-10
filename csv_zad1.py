@@ -15,12 +15,12 @@ dict_x = [
     {'name':'kasia', 'branch':'cor','year':2, 'cgpa':'9'},
 
 ]
-filename = 'record.scv'
-with open(filename, 'w', encoding='utf-8') as csv_f:
+filename = 'record.csv'
+with open(filename, 'w', encoding='utf-8', newline='') as csv_f:
     # csvwriter = csv.writer(csv_f)
     # csvwriter.writerow(row) #zapisanie wiersza z listy
 
-    csvwriter = csv.DictWriter(csv_f, fieldnames=fields)
+    csvwriter = csv.DictWriter(csv_f, fieldnames=fields, delimiter=';')
     csvwriter.writeheader()  # zapisanie nazw kolumn
     #csvwriter.writerow(dict2)  # zapisanie wiersza ze słownika
     csvwriter.writerows(dict_x)  # zapisanie wiersza ze słownika
