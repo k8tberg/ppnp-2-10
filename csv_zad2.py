@@ -21,13 +21,13 @@ with open(filename, 'r', encoding="UTF-8") as csv_f:
 
 print(fields)
 print(rows)
+
+# 9.19
+# 9.0
+# 9
 suma = 0
 for i in rows:
     number = float(i[-1])
     suma += number
 
 print(f"Srednia wynosi {suma / len(rows)}") # Srednia wynosi 9.063333333333333
-#
-# 9.19
-# 9.0
-# 9
