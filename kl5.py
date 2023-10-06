@@ -57,3 +57,4 @@ class Orzel(Ptak):
 orz3 = Orzel("Orzel", 20)
 orz3.latam()
 print(orz3.gatunek)
+orz3.wydaj_odglos()
