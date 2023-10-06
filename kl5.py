@@ -26,7 +26,7 @@ class Kura(Ptak):  # dziedziczenie po Ptaku
     """
 
     def __init__(self, gatunek):
-        super().__init__(gatunek, 0)
+        super().__init__(gatunek, 0) # konstruktor z dziedziczonej klasy
         self.gatunek = gatunek
 
     def latam(self):
