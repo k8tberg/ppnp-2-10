@@ -18,14 +18,14 @@ class Dom:
         print(f"Metraz {self.__metraz}")
 
     def podaj_okna(self):
-       print(f"Mam {self.__liczba_okien} okien")
-
+        print(f"Mam {self.__liczba_okien} okien")
 
     def zmien_kolor(self):
         wybor = input("Podaj kolor")
         self.__kolor = wybor
         self.podaj_kolor()
         self.__farba()
+
     def zmien_metraz(self):
         wybor = float(input("Podaj metraz"))
         self.__metraz = wybor
@@ -52,4 +52,3 @@ dom1.zmien_kolor()
 # Podaj kolorbiały
 # Kolor biały
 # Skończyła się farba
-
