@@ -54,6 +54,9 @@ class Orzel(Ptak):
 # print(kur2.gatunek)
 # kur2.latam()
 
+kur2 = Kura("Kura")
+print(kur2.gatunek)
+kur2.latam()
 orz3 = Orzel("Orzel", 20)
 orz3.latam()
 print(orz3.gatunek)
